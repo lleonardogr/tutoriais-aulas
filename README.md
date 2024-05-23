@@ -41,4 +41,4 @@ Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
 ---
 
-Esperamos que você ache este repositório útil e que ele ajude a aprimorar suas habilidades. Bons estudos!
+Espero que ache este repositório útil e que ele ajude a aprimorar suas habilidades. Bons estudos!
