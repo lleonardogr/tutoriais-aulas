@@ -1,67 +1,44 @@
-# Gesko
 
-Simple and minimal Jekyll blog. 
-Forked from [Asko](https://github.com/manuelmazzuola/asko).
-Original theme from [Sidey](https://github.com/ronv/sidey).
+### Tutoriais e Aulas
 
-### Features
+Este repositório contém uma coleção de tutoriais e aulas voltados para diversos tópicos de desenvolvimento de software e outras áreas relacionadas à tecnologia. A ideia principal é fornecer recursos educativos de fácil acesso e bem organizados para estudantes e profissionais.
 
-- [x] Responsive Design
-- [x] Dark/Ligh theme 🌗
-- [x] Inline CSS
-- [x] Anchor headings
-- [x] Tags & Tag pages 
-- [x] 404 page 
-- [x] Robots.txt 🤖
-- [x] Atom & Json feeds 📡
-- [x] Sass 
-- [x] About page, with Timeline! 🗣️
-- [x] PageSpeed and w3Validator tests PASSED ✔️
-- [x] Search bar 🔎
-- [x] Next & Previous Post ⏮️ ⏭️
-- [x] Automatic/Manual reading time estimation 🕐
-- [x] Disqus section (optional) ✍️ 
+#### Índice
 
+1. [Introdução](#introdução)
+2. [Estrutura do Projeto](#estrutura-do-projeto)
+3. [Como Utilizar](#como-utilizar)
+4. [Contribuição](#contribuição)
+5. [Licença](#licença)
 
-## Screenshot
-
-![light-theme](https://github.com/DavideBri/Gesko/blob/master/light-theme.jpg)
-![dark-theme](https://github.com/DavideBri/Gesko/blob/master/dark-theme.jpg)
-
-## Installation
-
-Be sure to have all [you need](https://jekyllrb.com/docs/installation/) before running anything. 
-
-Run local server:
-
-```bash
-$ git clone https://github.com/DavideBri/Gesko.git
-$ cd Gesko
-$ bundle install
-$ bundle exec jekyll build
-$ bundle exec jekyll serve
-```
-
-Navigate to `localhost:4000`. You're Welcome, Fork and be Stargazer.
-If you want to upload it to Github Pages, remember to update the `_congif.yml` and if you are going to upload in a repo called yournickname.github.io, remember to update the `{{ site.baseurl }}` to `{{ site.url }}` .
-Note that there is also a gtag in the [`_layouts/default.html`](https://github.com/DavideBri/Gesko/blob/6776e4afc384dc3d50ce2001715929c8e70a914c/_layouts/default.html#L9), you should remove it.
-
-To create new tag, create a folder in `tag/` with the name of the new one. In this folder add an `index.html` file and just add this header:
-```
 ---
-layout: tag
-tag: yourNewTag
+
+### Introdução
+
+Bem-vindo ao repositório de **Tutoriais e Aulas**! Este projeto foi criado com o objetivo de compilar materiais educativos em um único lugar, facilitando o aprendizado e o aprimoramento das habilidades dos desenvolvedores.
+
+### Estrutura do Projeto
+
+O projeto foi feito com base neste [tutorial](https://marllus.com/tecnologia/2024/03/11/github-blog-obsidian). Fiquem a vontade para montar o de vocês 🚀 🚀
+
+### Como Utilizar
+
+Para acessar os tutoriais e aulas, basta visitar o [site do projeto](https://lleonardogr.github.io/tutoriais-aulas/). Cada tutorial está detalhado com exemplos práticos e explicações passo a passo.
+
+### Contribuição
+
+Se você deseja contribuir para este projeto, siga os passos abaixo:
+
+1. Faça um fork deste repositório.
+2. Crie uma nova branch com a sua contribuição: `git checkout -b minha-contribuição`.
+3. Faça as alterações desejadas e comite as mudanças: `git commit -m 'Adicionei um novo tutorial sobre XYZ'`.
+4. Envie para o repositório remoto: `git push origin minha-contribuição`.
+5. Abra um Pull Request para revisão.
+
+### Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
 ---
-```
-Then build again and you're ready!!
 
-## Contributing
-
-Yeaaa feel free to open a pull request.
-
-
-If you see any typos or formatting errors in a post, or want to helping reduce backlogs or any other issue that needs to be addressed, please do not hesitate to open a pull request and fix it!, please read [contributing](./CONTRIBUTING.md) before PR.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE.md).
+Esperamos que você ache este repositório útil e que ele ajude a aprimorar suas habilidades. Bons estudos!
